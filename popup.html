@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friendly URL</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      class="container d-flex justify-content-center align-items-center"
+      style="height: 100vh; width: 100vw"
+    >
+      <div class="card w-50 bg-light">
+        <div class="card-body">
+          <h5 class="card-title">Friendly URL</h5>
+          <small class="text-muted text-uppercase">Input</small>
+          <input
+            type="text"
+            id="inputString"
+            class="form-control"
+            placeholder="Enter string..."
+          />
+
+          <small class="text-muted text-uppercase">Result</small>
+          <div class="input-group">
+            <div id="result" class="result form-control text-muted"></div>
+            <button
+              class="btn btn-danger d-flex align-items-center"
+              id="copyButton"
+            >
+              <i class="fas fa-copy me-2"></i>Copy
+            </button>
+          </div>
+        </div>
+        <small class="text-muted text-end m-2">linhsama</small>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
