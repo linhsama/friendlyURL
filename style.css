@@ -1,0 +1,40 @@
+body {
+  background-color: #f8f9fa;
+}
+.container {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.card {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form-label {
+  font-weight: bold;
+  color: #555;
+}
+.form-control {
+  border-radius: 5px;
+}
+.input-group-text {
+  background-color: #e9ecef;
+  border-color: #ced4da;
+}
+#copyButton {
+  border-radius: 5px;
+  width: 80px;
+}
+.copied {
+  background-color: #28a745;
+  border-color: #28a745;
+}
