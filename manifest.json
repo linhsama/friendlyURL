@@ -1,11 +1,11 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 1,
   "name": "Friendly URL Extension",
   "version": "1.0",
   "description": "Converts input string to a friendly URL by linhsama",
   "permissions": ["activeTab"],
   "action": {
-    "default_popup": "popup.html",
+    "default_popup": "index.html",
     "default_icon": {
       "16": "icon16.png",
       "48": "icon48.png",
